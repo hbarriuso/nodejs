@@ -1,12 +1,1 @@
-
-week2/mongodb/data/conFusion.0
-
-week2/mongodb/data/conFusion.1
-
-week2/mongodb/data/conFusion.ns
-
-week2/mongodb/data/mongod.lock
-
-week2/mongodb/data/journal/lsn
-
-week2/mongodb/data/journal/j._0
+week2/mongodb/**/*
