@@ -11,7 +11,7 @@ db.once('open', function () {
     // we're connected!
     console.log("Connected correctly to server");
 
-    // create a new promotion
+    // create a new dish
     Promotions.create( {
       "name": "Weekend Grand Buffet",
       "image": "images/buffet.png",
@@ -25,6 +25,7 @@ db.once('open', function () {
 
         var id = promotion._id;
 
+        // get all the dishes
         setTimeout(function () {
             Promotions.findByIdAndUpdate(id, {
                     $set: {
